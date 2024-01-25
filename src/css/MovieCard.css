@@ -1,0 +1,38 @@
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .movie-details {
+    padding: 16px;
+  }
+  
+  .movie-title {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .movie-genres {
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .movie-release-date {
+    margin: 8px 0;
+    color: #777;
+  }
+  .favorite-icon-clicked {
+    font-size: 24px;
+    color: #ff0000; /* Gold color for the favorite icon */
+    cursor: pointer;
+}
